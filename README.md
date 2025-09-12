@@ -22,11 +22,6 @@
   \q
   ```
 
-- nome do meu DB 
-  ```
-  cursodb 
-  ```
-
 - mostra todas as tabelas presentes no DB
   ```
    \dt;
@@ -34,7 +29,7 @@
 
 - criar tabela
   ```
-   create table nome_da_tabela (
+   create table nome_da_tabela 
   ```
 
     - exemplo de tabela:
@@ -48,7 +43,7 @@
       
       ```
 
-- inclusão de tabela no DB
+- inserção de tabela no DB
   ```
    insert into nome_da_tabela (campos que ira atualizar, ex: (nome, telefone)) values (inserção de elementos no campo, ex: (DANIEL, 12345))
   ```
